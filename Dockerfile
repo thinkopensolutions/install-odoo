@@ -94,7 +94,7 @@ COPY reset-admin-passwords.py /
 # docker configuration #
 ########################
 COPY ./entrypoint.sh /
-EXPOSE 8069 8072
+EXPOSE 10073 10072
 USER odoo
 VOLUME ["/mnt/data-dir", \
        "/mnt/backups", \

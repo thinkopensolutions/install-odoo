@@ -17,8 +17,8 @@ Connect to your remote server
     docker run \
     -d \
     --link db-odoo:db \
-    -p 1001:8069 \
-    -p 1002:8072 \
+    -p 1001:10073 \
+    -p 1002:10072 \
     -p 1003:22 \
     --name odoo-dev \
     -t itprojectsllc/install-odoo:8.0-remote-dev
