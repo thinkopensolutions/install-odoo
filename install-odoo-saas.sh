@@ -540,7 +540,7 @@
  fi                                         ################################   END IF
 
  # What?
- #echo "Do not forget to set server parameter report.url = 0.0.0.0:8069"
+ #echo "Do not forget to set server parameter report.url = 0.0.0.0:11073"
 
  #### ODOO DB BACKUP
  if [[ "$INIT_BACKUPS" != "no" ]]             ###################################### IF
