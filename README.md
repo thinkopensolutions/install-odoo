@@ -107,8 +107,8 @@ Simplest way to create odoo container is as following:
 
     # run (create) container
     docker run \
-    -p 8069:8069 \
-    -p 8072:8072 \
+    -p 10073:10073 \
+    -p 10072:10072 \
     --name odoo \
     --link db-odoo:db \
     -t itprojectsllc/install-odoo:10.0
