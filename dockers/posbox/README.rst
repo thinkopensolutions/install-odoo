@@ -10,7 +10,7 @@ To run this docker you to provide `access to USB devices <https://stackoverflow.
 
   docker run \
   # expose ports:
-  -p 9069:8069 \
+  -p 9069:11073 \
   # remove container after stopping:
   --rm \
   # access to usb:

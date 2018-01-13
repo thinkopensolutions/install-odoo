@@ -32,7 +32,7 @@
     -v ${BASE_DIR}/odoo-config/:/mnt/config/ \
     -v ${BASE_DIR}/data-dir/:/mnt/data-dir/ \
     -v ${BASE_DIR}/logs/:/mnt/logs/ \
-    -p 8069:8069 \
+    -p 11073:11073 \
     --name odoo \
     --link db-odoo:db
 
